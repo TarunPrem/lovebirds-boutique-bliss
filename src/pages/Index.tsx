@@ -8,6 +8,7 @@ import Testimonials from "@/components/Testimonials";
 import Newsletter from "@/components/Newsletter";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import TrustBadges from "@/components/TrustBadges";
 
 const Index = () => {
   return (
@@ -15,6 +16,7 @@ const Index = () => {
       <Navbar />
       <main>
         <Hero />
+        <TrustBadges />
         <Categories />
         <FeaturedProducts />
         <AboutPreview />
