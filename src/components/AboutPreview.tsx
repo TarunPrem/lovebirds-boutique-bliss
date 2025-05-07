@@ -22,7 +22,7 @@ const AboutPreview = () => {
               collections are designed to celebrate love, beauty, and the special moments in life.
             </p>
             <p className="text-gray-700 mb-6 fade-in">
-              Founded with a passion for creating elegant and meaningful pieces, we handcraft each 
+              Founded by Tarun and Srivatsan with a passion for creating elegant and meaningful pieces, we handcraft each 
               item with attention to detail and quality. From romantic necklaces to enchanting gift sets,
               our products are made to be treasured for years to come.
             </p>
