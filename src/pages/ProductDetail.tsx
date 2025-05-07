@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { Heart, ShoppingCart, Star } from "lucide-react";
@@ -207,7 +206,7 @@ const ProductDetail = () => {
                 <span className="text-gray-500 text-sm">(12 reviews)</span>
               </div>
               <p className="text-2xl font-medium text-love-600 mb-6">
-                ${product.price.toFixed(2)}
+                ₹{product.price.toFixed(2)}
               </p>
               <div className="mb-6">
                 <p className="text-gray-700">
