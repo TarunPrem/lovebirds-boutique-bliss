@@ -50,17 +50,17 @@ const ProductCard = ({ product }: ProductCardProps) => {
             className="w-full h-full object-cover transform transition-all duration-500 group-hover:scale-105"
           />
           {product.isNew && (
-            <div className="absolute top-3 left-3 bg-rose-500 text-white text-xs font-medium px-2 py-1 rounded-full shadow-sm">
+            <div className="absolute top-3 left-3 bg-love-600 text-white text-xs font-medium px-2 py-1 rounded-full shadow-sm">
               New
             </div>
           )}
           <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
         </Link>
         <button 
-          className={`absolute top-3 right-3 bg-white p-2 rounded-full shadow-md ${isWishlisted ? 'text-rose-500' : 'text-gray-400'} hover:text-rose-500 transition-all duration-300 transform hover:scale-110`}
+          className={`absolute top-3 right-3 bg-white p-2 rounded-full shadow-md ${isWishlisted ? 'text-love-600' : 'text-gray-400'} hover:text-love-600 transition-all duration-300 transform hover:scale-110`}
           onClick={handleWishlist}
         >
-          <Heart size={18} className={isWishlisted ? 'fill-rose-500' : ''} />
+          <Heart size={18} className={isWishlisted ? 'fill-love-600' : ''} />
         </button>
       </div>
       <div className="p-4">
@@ -69,14 +69,14 @@ const ProductCard = ({ product }: ProductCardProps) => {
             <Star key={i} size={12} fill="currentColor" />
           ))}
         </div>
-        <h3 className="font-medium text-gray-800 mb-1 group-hover:text-love-600 transition-colors">
+        <h3 className="font-medium text-gray-800 mb-1 group-hover:text-love-700 transition-colors">
           <Link to={`/product/${product.id}`}>
             {product.name}
           </Link>
         </h3>
         <p className="text-love-600 font-semibold mb-3">${product.price.toFixed(2)}</p>
         <button 
-          className="w-full py-2.5 text-center bg-white border border-gray-200 rounded-md text-gray-700 font-medium hover:bg-love-500 hover:text-white hover:border-love-500 transition-all duration-300"
+          className="w-full py-2.5 text-center bg-white border border-gray-200 rounded-md text-gray-700 font-medium hover:bg-love-600 hover:text-white hover:border-love-600 transition-all duration-300"
           onClick={handleAddToCart}
         >
           Add to Cart
