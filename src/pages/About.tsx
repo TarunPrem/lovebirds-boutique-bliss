@@ -1,4 +1,3 @@
-
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Newsletter from "@/components/Newsletter";
@@ -28,19 +27,18 @@ const About = () => {
                 <h2 className="text-3xl font-serif mb-6 fade-in">A Love for Beautiful Things</h2>
                 <div className="space-y-4 text-gray-700">
                   <p className="fade-in">
-                    Lovebirds was born from a passion for creating beautiful, meaningful pieces that celebrate love 
-                    and connection. What started as a small collection of handcrafted jewelry has grown into 
-                    a curated boutique offering elegant accessories and thoughtful gifts.
+                    At Lovebirds, our journey began with a deep-seated passion for crafting pieces that celebrate love and connection. 
+                    What started as a modest collection of handcrafted jewelry has blossomed into a curated boutique offering elegant 
+                    accessories and thoughtful gifts.
                   </p>
                   <p className="fade-in">
-                    Our founder, Emily, has always believed that jewelry should not only be beautiful but also tell a story. 
-                    Each piece in our collection is carefully selected to represent the delicate balance of romance, 
-                    elegance, and modern style.
+                    Our founder, Tarun, has always believed that jewelry should not only captivate with its beauty but also narrate a story. 
+                    Each piece in our collection is meticulously selected to embody the delicate balance of romance, elegance, and contemporary style.
                   </p>
                   <p className="fade-in">
-                    We work with talented artisans who share our vision and commitment to quality craftsmanship. 
-                    From delicate necklaces to statement pieces, every Lovebirds item is created with attention 
-                    to detail and made to be treasured for years to come.
+                    We collaborate with talented artisans who share our vision and commitment to quality craftsmanship. 
+                    From delicate necklaces to statement pieces, every Lovebirds item is created with meticulous attention to detail, 
+                    designed to be cherished for years to come.
                   </p>
                 </div>
               </div>

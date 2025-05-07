@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { toast } from "@/hooks/use-toast";
 import Navbar from "@/components/Navbar";
@@ -66,8 +65,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <h3 className="font-medium mb-1">Email Us</h3>
-                      <p className="text-gray-600">hello@lovebirds.com</p>
-                      <p className="text-gray-600">support@lovebirds.com</p>
+                      <p className="text-gray-600">store@lovebirds.co.in</p>
                     </div>
                   </div>
                   
@@ -77,8 +75,8 @@ const Contact = () => {
                     </div>
                     <div>
                       <h3 className="font-medium mb-1">Call Us</h3>
-                      <p className="text-gray-600">+1 (555) 123-4567</p>
-                      <p className="text-gray-600">Mon-Fri, 9AM-6PM EST</p>
+                      <p className="text-gray-600">+91 7200079972</p>
+                      <p className="text-gray-600">Mon-Sat, 9AM-9PM IST</p>
                     </div>
                   </div>
                   
@@ -99,8 +97,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <h3 className="font-medium mb-1">Opening Hours</h3>
-                      <p className="text-gray-600">Monday-Friday: 10AM-7PM</p>
-                      <p className="text-gray-600">Saturday: 11AM-6PM</p>
+                      <p className="text-gray-600">Monday-Saturday: 9AM-9PM IST</p>
                       <p className="text-gray-600">Sunday: Closed</p>
                     </div>
                   </div>
