@@ -40,7 +40,7 @@ const Hero = () => {
             </div>
             <div className="absolute -bottom-5 -left-5 bg-white p-5 rounded-lg shadow-xl hidden md:block animate-fadeIn">
               <p className="text-love-600 font-medium">New Love Collection</p>
-              <p className="text-sm text-gray-600">Starting at $49.99</p>
+              <p className="text-sm text-gray-600">₹499</p>
             </div>
             <div className="absolute -top-5 -right-5 bg-love-50 p-4 rounded-full shadow-lg hidden md:block animate-fadeIn">
               <Heart size={24} className="text-love-500 fill-love-500" />
