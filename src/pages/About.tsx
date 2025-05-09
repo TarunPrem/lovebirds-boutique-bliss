@@ -1,3 +1,4 @@
+
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Newsletter from "@/components/Newsletter";
@@ -104,19 +105,19 @@ const About = () => {
         <section className="py-16">
           <div className="container-custom">
             <h2 className="text-3xl font-serif text-center mb-12 fade-in">Meet Our Team</h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 max-w-3xl mx-auto">
               <div className="text-center">
                 <div className="rounded-full overflow-hidden w-48 h-48 mx-auto mb-4">
                   <img 
                     src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=300&q=80" 
-                    alt="Emily Johnson" 
+                    alt="Tarun Prem" 
                     className="w-full h-full object-cover"
                   />
                 </div>
-                <h3 className="text-xl font-serif mb-1">Emily Johnson</h3>
+                <h3 className="text-xl font-serif mb-1">Tarun Prem</h3>
                 <p className="text-love-600 mb-3">Founder & Creative Director</p>
                 <p className="text-gray-600">
-                  Emily's passion for beautiful jewelry and meaningful connections led her to 
+                  Tarun's passion for beautiful jewelry and meaningful connections led him to 
                   create Lovebirds in 2018.
                 </p>
               </div>
@@ -125,31 +126,15 @@ const About = () => {
                 <div className="rounded-full overflow-hidden w-48 h-48 mx-auto mb-4">
                   <img 
                     src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=300&q=80" 
-                    alt="Michael Chen" 
+                    alt="Srivatsan" 
                     className="w-full h-full object-cover"
                   />
                 </div>
-                <h3 className="text-xl font-serif mb-1">Michael Chen</h3>
-                <p className="text-love-600 mb-3">Product Curator</p>
+                <h3 className="text-xl font-serif mb-1">Srivatsan</h3>
+                <p className="text-love-600 mb-3">Co-founder & Product Curator</p>
                 <p className="text-gray-600">
-                  With a keen eye for design and quality, Michael selects each piece in our collection 
+                  With a keen eye for design and quality, Srivatsan selects each piece in our collection 
                   to ensure it meets our high standards.
-                </p>
-              </div>
-              
-              <div className="text-center">
-                <div className="rounded-full overflow-hidden w-48 h-48 mx-auto mb-4">
-                  <img 
-                    src="https://images.unsplash.com/photo-1534751516642-a1af1ef26a56?auto=format&fit=crop&w=300&q=80" 
-                    alt="Sophia Rodriguez" 
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-                <h3 className="text-xl font-serif mb-1">Sophia Rodriguez</h3>
-                <p className="text-love-600 mb-3">Customer Experience</p>
-                <p className="text-gray-600">
-                  Sophia ensures that every customer interaction with Lovebirds is as exceptional 
-                  as the products we offer.
                 </p>
               </div>
             </div>

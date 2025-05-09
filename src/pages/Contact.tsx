@@ -1,8 +1,9 @@
+
 import { useState } from "react";
 import { toast } from "@/hooks/use-toast";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import { Mail, Phone, MapPin, Clock } from "lucide-react";
+import { Mail, Phone } from "lucide-react";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -77,28 +78,6 @@ const Contact = () => {
                       <h3 className="font-medium mb-1">Call Us</h3>
                       <p className="text-gray-600">+91 7200079972</p>
                       <p className="text-gray-600">Mon-Sat, 9AM-9PM IST</p>
-                    </div>
-                  </div>
-                  
-                  <div className="flex items-start">
-                    <div className="mt-1 mr-4 bg-love-100 p-2 rounded text-love-600">
-                      <MapPin size={20} />
-                    </div>
-                    <div>
-                      <h3 className="font-medium mb-1">Visit Our Store</h3>
-                      <p className="text-gray-600">123 Love Lane</p>
-                      <p className="text-gray-600">New York, NY 10001</p>
-                    </div>
-                  </div>
-                  
-                  <div className="flex items-start">
-                    <div className="mt-1 mr-4 bg-love-100 p-2 rounded text-love-600">
-                      <Clock size={20} />
-                    </div>
-                    <div>
-                      <h3 className="font-medium mb-1">Opening Hours</h3>
-                      <p className="text-gray-600">Monday-Saturday: 9AM-9PM IST</p>
-                      <p className="text-gray-600">Sunday: Closed</p>
                     </div>
                   </div>
                 </div>
@@ -184,19 +163,6 @@ const Contact = () => {
                     </button>
                   </div>
                 </form>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* Map Section */}
-        <section className="py-16 bg-gray-50">
-          <div className="container-custom">
-            <h2 className="text-2xl font-serif text-center mb-8">Find Us</h2>
-            <div className="h-[400px] bg-gray-200 rounded-lg">
-              {/* In a real app, you would integrate Google Maps or another map provider here */}
-              <div className="w-full h-full flex items-center justify-center text-gray-500">
-                <p>Map placeholder - Google Maps would be integrated here</p>
               </div>
             </div>
           </div>

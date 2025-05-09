@@ -16,7 +16,7 @@ const Footer = () => {
               Curated, elegant, and romantic jewelry and gifts for every special moment.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-500 hover:text-love-500" aria-label="Instagram">
+              <a href="https://www.instagram.com/store_lovebirds/" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:text-love-500" aria-label="Instagram">
                 <Instagram size={20} />
               </a>
               <a href="#" className="text-gray-500 hover:text-love-500" aria-label="Facebook">
@@ -38,22 +38,22 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/shop/necklaces" className="text-gray-600 hover:text-love-500">
+                <Link to="/shop?category=necklaces" className="text-gray-600 hover:text-love-500">
                   Necklaces
                 </Link>
               </li>
               <li>
-                <Link to="/shop/earrings" className="text-gray-600 hover:text-love-500">
+                <Link to="/shop?category=earrings" className="text-gray-600 hover:text-love-500">
                   Earrings
                 </Link>
               </li>
               <li>
-                <Link to="/shop/gifts" className="text-gray-600 hover:text-love-500">
+                <Link to="/shop?category=gifts" className="text-gray-600 hover:text-love-500">
                   Gift Sets
                 </Link>
               </li>
               <li>
-                <Link to="/shop/accessories" className="text-gray-600 hover:text-love-500">
+                <Link to="/shop?category=accessories" className="text-gray-600 hover:text-love-500">
                   Accessories
                 </Link>
               </li>

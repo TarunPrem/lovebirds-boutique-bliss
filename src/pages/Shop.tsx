@@ -1,5 +1,6 @@
 
 import { useState, useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ProductCard, { Product } from "@/components/ProductCard";
@@ -79,12 +80,26 @@ const Shop = () => {
   const [filteredProducts, setFilteredProducts] = useState<Product[]>([]);
   const [activeCategory, setActiveCategory] = useState("All");
   const [sortBy, setSortBy] = useState("featured");
+  
+  // Get URL parameters
+  const location = useLocation();
+  const searchParams = new URLSearchParams(location.search);
+  const categoryParam = searchParams.get("category");
 
   useEffect(() => {
     // In a real app, you'd fetch from an API
     setProducts(allProducts);
-    setFilteredProducts(allProducts);
-  }, []);
+    
+    // Set active category from URL parameter if available
+    if (categoryParam) {
+      const formattedCategory = categoryParam.charAt(0).toUpperCase() + categoryParam.slice(1);
+      if (categories.includes(formattedCategory)) {
+        setActiveCategory(formattedCategory);
+      } else if (categoryParam === "gift-sets" && categories.includes("Gift Sets")) {
+        setActiveCategory("Gift Sets");
+      }
+    }
+  }, [categoryParam]);
 
   useEffect(() => {
     let result = [...products];

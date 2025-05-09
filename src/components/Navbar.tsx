@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Heart, ShoppingCart, Menu, X, Search, User, BadgeCheck, LogIn } from "lucide-react";
+import { Heart, ShoppingCart, Menu, X, Search, User, LogIn } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Navbar = () => {
@@ -29,11 +29,6 @@ const Navbar = () => {
 
   return (
     <header className={`${isScrolled ? 'bg-white/95 backdrop-blur-md shadow-md' : 'bg-white'} sticky top-0 z-50 transition-all duration-300`}>
-      <div className="bg-love-600 text-white py-1.5 text-center text-sm font-medium">
-        <div className="container-custom flex items-center justify-center">
-          <BadgeCheck size={16} className="mr-2" /> Free shipping on orders over ₹2000 | 30-day returns
-        </div>
-      </div>
       <nav className="container-custom py-4">
         <div className="flex items-center justify-between">
           {/* Logo for mobile and desktop */}
